@@ -33,7 +33,7 @@ class Bankapp
                 cout<< " Oops! Your account balance is low. Money cannot be withdrawn\n";
             else
                {
-                   Bal =- x;
+                   Bal -= x;
                 cout<< "Rs."<<x<<" withdrawn successfully!:)\n";
                }
          }
